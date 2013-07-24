@@ -31,6 +31,7 @@ export AWS_SECRET_KEY=UFmoO5pJrKmL1P9jURuuynU7Mm883tpv
 # Update the current value in your bash file
 benv update AWS_SECRET_KEY
 ```
+This simples command will automatically update the "AWS_SECRET_KEY" value in your bash dot file.
 
 If want to check if it really works:
 
