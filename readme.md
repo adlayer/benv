@@ -18,15 +18,19 @@ Benv is a command-line tool that with just one command synchronize your env var 
 
 Here is how you can use it:
 
-```shell
+```bash
 ## Setting or updating a environment variable
 export AWS_SECRET_KEY=UFmoO5pJrKmL1P9jURuuynU7Mm883tpv
+```
+
+```bash
 ## Update the current value in your bash file
 benv update AWS_SECRET_KEY
 ```
 
 If want to check if it really works:
-```shell
+
+```bash
 cat ./bash_login | grep AWS_SECRET_KEY
 ```
 
