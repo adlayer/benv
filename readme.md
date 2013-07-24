@@ -10,7 +10,7 @@ But what if your app has a lot configuration variables ? What if your server res
 
 ### A productive way persist your env vars
 
-Many people like to store their variables into files executed by shell on login, in order to always have all variables declared when the is retarted. Yeah we are talking about ~/.bash_profile, ~/.bash_login, and ~/.profile.
+Many people like to store their variables into files executed by shell on login, in order to always have all variables declared when the is retarted. Yeah we are talking about ```.bash_profile```, ```.bash_login```, and ```.profile```.
 
 When you change a environment variable your app will be able to read it instantaneously, but if your server goes down if you forgot to change the value in your "bash file" too, when the server reboot your app will be reading the old value of variable.
 
