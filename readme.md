@@ -1,6 +1,6 @@
 # Benv
 
-So you want to make your apps compatible with [12factors App Manifest](http://www.12factor.net), including the thirdy (III) recomendation [III. Config](http://www.12factor.net/config) ?
+So you want to make your apps compatible with [12 Factors App Manifest](http://www.12factor.net), including the thirdy (III) recomendation [III. Config](http://www.12factor.net/config) ?
 
 > "The twelve-factor app stores config in environment variables"
 
@@ -19,12 +19,12 @@ Benv is a command-line tool that with just one command synchronize your env var 
 Here is how you can use it:
 
 ```bash
-## Setting or updating a environment variable
+# Setting or updating a environment variable
 export AWS_SECRET_KEY=UFmoO5pJrKmL1P9jURuuynU7Mm883tpv
 ```
 
 ```bash
-## Update the current value in your bash file
+# Update the current value in your bash file
 benv update AWS_SECRET_KEY
 ```
 
