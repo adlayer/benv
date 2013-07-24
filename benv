@@ -12,7 +12,12 @@ function update(){
 	variable=$1
 	old=$(cat $bash_file | grep "export $variable")
 	new="export $variable="$(printenv $variable)
-	$(sed -i .benv.backup "s/$old/$new/g" $bash_file)
+	
+	if [ "$old" ]; then
+		$(sed -i .benv.backup "s/$old/$new/g" $bash_file)
+	else
+		echo $new >> $bash_file
+	fi
 }
 
 function main(){
