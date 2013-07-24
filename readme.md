@@ -14,7 +14,7 @@ Export and synchronize your env vars with your "bash file" is not a too much pro
 
 
 ## What does it do ?
-Benv is command-line tool that with just one command synchronize your env var with your bash file.
+Benv is a command-line tool that with just one command synchronize your env var with your bash file.
 
 Here is how you can use it:
 
