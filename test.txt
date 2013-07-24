@@ -1,3 +1,0 @@
-export hadoop=skate
-export what=hell
-export skate=yahoo
