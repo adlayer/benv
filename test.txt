@@ -1,0 +1,2 @@
+export skate=board
+export life=hadoop
