@@ -1,4 +1,4 @@
-# Benv
+# Benv (Just a work in progress)
 
 So you want to make your apps compatible with [12 Factors App Manifest](http://www.12factor.net), including the thirdy (III) recomendation [III. Config](http://www.12factor.net/config) ?
 
