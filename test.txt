@@ -1,2 +1,3 @@
-export skate=board
-export life=hadoop
+export skate=yahoo
+export hadoop=skate
+export what=hell
