@@ -2,9 +2,13 @@
 
 So you want to make your apps compatible with [12 Factors App Manifest](http://www.12factor.net), including the thirdy (III) recomendation [III. Config](http://www.12factor.net/config) ?
 
+### The problem
+
 > "The twelve-factor app stores config in environment variables"
 
 But what if your app has a lot configuration variables ? What if your server restart and your variables were cleaned ?
+
+### A productive way persist your env vars
 
 Many people like to store their variables into files executed by shell on login, in order to always have all variables declared when the is retarted. Yeah we are talking about ~/.bash_profile, ~/.bash_login, and ~/.profile.
 
