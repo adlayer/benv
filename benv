@@ -1,7 +1,7 @@
 #!/bin/bash
 command=$1
 value=$2
-bash_file="~/.bashrc"
+bash_file="$HOME/.bashrc"
 
 function search(){
 	query=$1
