@@ -36,6 +36,6 @@ This simples command will automatically update the "AWS_SECRET_KEY" value in you
 If want to check if it really works:
 
 ```bash
-cat ./bash_login | grep AWS_SECRET_KEY
+cat ~/bashrc | grep AWS_SECRET_KEY
 ```
 
