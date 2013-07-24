@@ -1,2 +1,13 @@
 #!/bin/bash
+command=$1
+value=$2
 
+function search(){
+	query=$1
+	printenv | grep $query
+}
+
+function main(){
+	$command $value
+}
+main
