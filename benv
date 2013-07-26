@@ -4,8 +4,12 @@ key=$2
 value=$3
 bash_file="$HOME/.bashrc"
 
+function get(){
+	printenv $key
+}
+
 function search(){
-	query=$1
+	query=$key
 	printenv | grep $query
 }
 
@@ -19,8 +23,9 @@ function set(){
 	echo "To update the changes made."	
 }
 
-function get(){
-	printenv $key
+function del(){
+	old=$(cat $bash_file | grep "export $key")
+	$(sed -i .benv.backup "/$old/d" $bash_file)
 }
 
 function update(){
