@@ -38,9 +38,7 @@ source ~/.bashrc
 benv del AWS_SECRET_KEY
 ```
 
-If want to check if it really works:
-
 ```bash
-cat ~/bashrc | grep AWS_SECRET_KEY
+# Applying changes, reload variables in your environment
+source ~/.bashrc
 ```
-
