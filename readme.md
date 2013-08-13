@@ -29,6 +29,11 @@ benv set AWS_SECRET_KEY UFmoO5pJrKmL1P9jURuuynU7Mm883tpv
 This simple command will automatically update the "AWS_SECRET_KEY" value in your bash dot file.
 
 ```bash
+# Applying changes, reload variables in your environment
+source ~/.bashrc
+```
+
+```bash
 # Deleting one variable
 benv del AWS_SECRET_KEY
 ```
